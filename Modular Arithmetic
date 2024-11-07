@@ -1,1 +1,12 @@
 
+(a+b)%m = (a%m + b%m)%m
+similarly for for multiplication 
+
+for subtraction
+(a-b)%m = (a%m - b%m + m ) % m 
+
+for division we need to find the multiplicative inverse of a  number
+(a/b)%m
+
+a%m * (b^-1) %m ,we multiply the multiplicative inverse instead of dividing.
+ b^-1 = pow(b,m-2) ,where m is a prime modulo, to find the multiplicative inverse.
