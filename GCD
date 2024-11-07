@@ -1,0 +1,5 @@
+gcd(a,b) = gcd(a,b-a)
+
+gcd(a,b)= gcd(a,a%b) when a>b
+
+O(log(max(a,b))
