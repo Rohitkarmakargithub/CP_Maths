@@ -1,1 +1,3 @@
 Number of subarrrays in an array of size n: n*(n+1)/2 
+
+If you divide a number n with the power of 2 ie 2^k, the remainder will be the last k bits in the number n.
