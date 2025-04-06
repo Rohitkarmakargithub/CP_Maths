@@ -4,8 +4,14 @@ If you divide a number n with the power of 2 ie 2^k, the remainder will be the l
 
 k^5 > k^4 + k^3 + ..... + k^0
 
+
+
 If you want to find the power of 2 in 9!
 9*8......*2*1  - 2^7
 
 9/2 = 4
 so we have 2^4 between 9 and 4 and 4/2 =2 , so I have 2^2 between 4 and 2 
+
+
+
+p^0 + p^1 +p^2+......+p^k = (p^(k+1) - 1)/(p - 1)
