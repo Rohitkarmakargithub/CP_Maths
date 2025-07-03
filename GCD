@@ -3,3 +3,6 @@ gcd(a,b) = gcd(a,b-a)
 gcd(a,b)= gcd(a,a%b) when a>b
 
 O(log(max(a,b))
+
+
+gcd(a1,a2,a3,a4,a5) < gcd(a1 + a2 + a3, a4 + a5) 
