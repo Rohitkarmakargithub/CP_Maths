@@ -18,3 +18,5 @@ so we have 2^4 between 9 and 4 and 4/2 =2 , so I have 2^2 between 4 and 2
 
 
 -> To find the rightmost set bit = x & (-x)
+
+-> To find the lowest multiple of i above l it is ceil(l/i) * i
