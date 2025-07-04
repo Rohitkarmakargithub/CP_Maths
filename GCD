@@ -6,3 +6,5 @@ O(log(max(a,b))
 
 
 gcd(a1,a2,a3,a4,a5) < gcd(a1 + a2 + a3, a4 + a5) 
+
+gcd(a,b) <= min(a,b)
