@@ -20,3 +20,13 @@ so we have 2^4 between 9 and 4 and 4/2 =2 , so I have 2^2 between 4 and 2
 -> To find the rightmost set bit = x & (-x)
 
 -> To find the lowest multiple of i above l it is ceil(l/i) * i
+
+-> To check if a large number is divisible by a another , 
+bool isDivisible(string s, int d) {
+    int rem = 0;
+    for (char c : s) {
+        rem = (rem * 10 + (c - '0')) % d;
+    }
+    return rem == 0;
+}
+
