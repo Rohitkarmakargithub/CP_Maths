@@ -30,3 +30,13 @@ bool isDivisible(string s, int d) {
     return rem == 0;
 }
 
+
+-> If a number x has a prime factorization of:
+
+x = p1^a1 * p2^a2 * ... * pk^ak
+
+Then, the total number of positive divisors of x is:
+
+(a1 + 1) * (a2 + 1) * ... * (ak + 1)
+
+
