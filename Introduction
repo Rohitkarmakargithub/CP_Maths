@@ -12,6 +12,8 @@
 9/2 = 4
 so we have 2^4 between 9 and 4 and 4/2 =2 , so I have 2^2 between 4 and 2 
 
+If k is a prime number, the power of k in n! is given by:
+power = floor(n / k) + floor(n / k^2) + floor(n / k^3) + ...
 
 
 -> p^0 + p^1 +p^2+......+p^k = (p^(k+1) - 1)/(p - 1)    a(x^n - 1)/(x-1)   n = number of terms ie k+1
