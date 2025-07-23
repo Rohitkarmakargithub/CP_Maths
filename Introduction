@@ -5,24 +5,24 @@
 -> k^5 > k^4 + k^3 + ..... + k^0
 
 
-
+=================================================================================
 -> If you want to find the power of 2 in 9!
 9*8......*2*1  - 2^7
 
 9/2 = 4
 so we have 2^4 between 9 and 4 and 4/2 =2 , so I have 2^2 between 4 and 2 
-
+==================================================================================
 If k is a prime number, the power of k in n! is given by:
 power = floor(n / k) + floor(n / k^2) + floor(n / k^3) + ...
 
-
+===================================================================================
 -> p^0 + p^1 +p^2+......+p^k = (p^(k+1) - 1)/(p - 1)    a(x^n - 1)/(x-1)   n = number of terms ie k+1
 
-
+==================================================================================
 -> To find the rightmost set bit = x & (-x)
 
 -> To find the lowest multiple of i above l it is ceil(l/i) * i
-
+====================================================================================
 -> To check if a large number is divisible by a another , 
 bool isDivisible(string s, int d) {
     int rem = 0;
@@ -31,7 +31,7 @@ bool isDivisible(string s, int d) {
     }
     return rem == 0;
 }
-
+=======================================================================================
 
 -> If a number x has a prime factorization of:
 
@@ -41,4 +41,10 @@ Then, the total number of positive divisors of x is:
 
 (a1 + 1) * (a2 + 1) * ... * (ak + 1)
 
+-------------------------------------------------------------------------------------------
+-> |A ∪ B ∪ C ∪ D| = 
+|A| + |B| + |C| + |D|
+- |A ∩ B| - |A ∩ C| - |A ∩ D| - |B ∩ C| - |B ∩ D| - |C ∩ D|
++ |A ∩ B ∩ C| + |A ∩ B ∩ D| + |A ∩ C ∩ D| + |B ∩ C ∩ D|
+- |A ∩ B ∩ C ∩ D|
 
