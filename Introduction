@@ -16,7 +16,7 @@ If k is a prime number, the power of k in n! is given by:
 power = floor(n / k) + floor(n / k^2) + floor(n / k^3) + ...
 
 ===================================================================================
--> p^0 + p^1 +p^2+......+p^k = (p^(k+1) - 1)/(p - 1)    a(x^n - 1)/(x-1)   n = number of terms ie k+1
+-> p^0 + p^1 +p^2+......+p^k = (p^(k+1) - 1)/(p - 1)    (x^n - 1)/(x-1)   n = number of terms ie k+1, x = p
 
 ==================================================================================
 -> To find the rightmost set bit = x & (-x)
